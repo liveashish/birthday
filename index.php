@@ -26,9 +26,10 @@ function collectPost()
     $urlstring = {'access_token': $accessToken,
                  'q': query}
 
-    $fullurl = "https://graph.facebook.com/fql"+'?'+urllib.urlencode(urlstring)
+    $fullurl = "https://graph.facebook.com/fql".'?'$.urlstring;
 	
 }
+
 
 collectPost();
 
